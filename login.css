@@ -1,0 +1,108 @@
+@font-face { font-family: roboto-regular; 
+    src: url('inc/Roboto-Regular.ttf'); }
+*{
+	margin: 0;
+	padding: 0;
+  }
+  
+  body{
+	background: radial-gradient(circle at center, #434553, #3a3d4b);
+	font-family: roboto-regular;
+	user-select: none;
+  }
+  
+  .container{
+	width: 450px;
+	margin: 30px auto;
+  }
+
+  .wrapper h1{
+	  text-align: center;
+	  color: #0fbff2;
+	  font-size: 60px;
+	  margin-bottom: 50px;
+  }
+
+
+  .signup,
+  .login{
+	width: 50%;
+	background: #fff;
+	float: left;
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+	cursor: pointer;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 18px;
+  }
+  
+  .signup{
+	background: none;
+	color: white;
+  }
+
+  .signup-form,
+  .login-form{
+	background: #fff;
+	padding: 40px;
+	clear: both;
+	width: 100%;
+	box-sizing: border-box;
+	height: 500px;
+  }
+  
+  .input{
+	width: 100%;
+	padding: 20px;
+	box-sizing: border-box;
+	margin-bottom: 25px;
+	border: 2px solid #e9eaea;
+	font-size: 14px;
+	outline: none;
+  }
+  
+   .input:focus{
+	border: 2px solid black;
+  }
+
+  .login-form #emailLog{
+	  margin-top: 50px;
+  }
+  .btn{
+	border: 0;
+	width: 100%;
+	background: black;
+	height: 60px;
+	text-align: center;
+	line-height: 60px;
+	text-transform: uppercase;
+	color: white;
+	font-weight: bold;
+	letter-spacing: 1px;
+	cursor: pointer;
+	margin-bottom: 0px!important;
+	font-size: 14px;
+  }
+  
+  span a{
+	text-decoration: none;
+	color: #000;
+  }
+
+  .login-form > h4{
+	text-align: center;
+	font-family: tahoma;
+	padding-bottom: 2%;
+	color: black;
+	font-size: 13px;
+  }
+
+  .login-form > a{
+	  text-align: center;
+	  color: black;
+	  margin-left: 25%;
+	  text-decoration: none;
+  }
+
